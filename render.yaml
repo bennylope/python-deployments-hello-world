@@ -2,10 +2,10 @@ services:
   - type: web
     name: hello
     env: python
+    buildCommand: "python -m pip install -r requirements.txt"
+    startCommand: "uvicorn app:app --host=0.0.0.0"
     repo: https://github.com/bennylope/python-deployments-hello-world.git
     region: oregon
     plan: starter
     branch: main
     numInstances: 1
-    buildCommand: "python -m pip install -r requirements.txt"
-    startCommand: "uvicorn app:app"
