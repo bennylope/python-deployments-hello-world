@@ -1,40 +1,37 @@
-==============================================
-Hello World in FastAPI for example deployments
-==============================================
+# Hello World in FastAPI for example deployments
 
-Locally
-=======
+1. [Locally](#locally)
+1. [Heroku](#heroku)
+1. [Render](#render)
 
-Install::
+## Locally
+
+Install:
 
     python -m pip install -r requirements.txt
 
-Run (specifying port is optional)::
+Run (specifying port is optional):
 
     uvicorn app:app --port=8000
 
-Heroku
-======
 
-The app can be deployed to `Heroku <https://heroku.com>`_ using free resources, however you will need to establish your
+## Heroku
+
+The app can be deployed to [Heroku](https://heroku.com) using free resources, however you will need to establish your
 account first. Once you have an account, you can click the button here to deploy to Heroku:
 
-.. image:: https://www.herokucdn.com/deploy/button.svg
-   :target: https://heroku.com/deploy?template=https://github.com/bennylope/python-deployments-hello-world
-   :alt: Deploy to Heroku
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bennylope/python-deployments-hello-world)
 
 Alternatively, fork this repository, create a Heroku app in your Heroku dashboard, then Git push to that repository.
 
-Render
-======
+## Render
 
-There are two ways to quickly set up the Hello World app with `Render <https://render.com>`_, as an individual web service or as a
+There are two ways to quickly set up the Hello World app with [Render](https://render.com), as an individual web service or as a
 services "blueprint". The "blueprint" allows you to take advantage of the `render.yaml` configuration file
 included in the app source code. Both allow you to test this out for free, however the "blueprint" method
 requires adding a credit card to your account.
 
-Individual web service
-----------------------
+### Individual web service
 
 1. Log into (or create) your Render account
 2. From the dashboard click the "New" button in the top navigation bar
@@ -51,8 +48,7 @@ you will see only the "Free" option.
 Instead of a GitHub URL you can add a public GitLab URL _or_ you can connect the account to add a
 private repository.
 
-Blueprint
----------
+### Blueprint
 
 1. Log into (or create) your Render account
 2. From the dashboard click the "New" button in the top navigation bar
