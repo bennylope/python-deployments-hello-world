@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hello
+    env: Python
+    repo: https://github.com/bennylope/python-deployments-hello-world.git
+    region: oregon
+    plan: starter
+    branch: main
+    numInstances: 1
