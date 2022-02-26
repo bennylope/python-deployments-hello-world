@@ -1,6 +1,9 @@
 # The name of this app. Must be unique within a project.
 name: app
 
+# The size of the app's persistent disk (in MB).
+disk: 2048
+
 # The runtime the application uses. The 'type' key defines the base container
 # image that will be used to run the application. There is a separate base
 # container image for each primary language for the application,
