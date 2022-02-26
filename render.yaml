@@ -6,6 +6,6 @@ services:
     startCommand: "uvicorn app:app --host=0.0.0.0"
     repo: https://github.com/bennylope/python-deployments-hello-world.git
     region: oregon
-    plan: starter
+    plan: free
     branch: main
     numInstances: 1
