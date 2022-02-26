@@ -1,7 +1,7 @@
 services:
   - type: web
     name: hello
-    env: Python
+    env: python
     repo: https://github.com/bennylope/python-deployments-hello-world.git
     region: oregon
     plan: starter

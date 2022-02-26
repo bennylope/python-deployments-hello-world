@@ -23,3 +23,7 @@ Click the button to deploy to Heroku.
    :alt: Deploy to Heroku
 
 Alternatively, fork this repository, create a Heroku app in your Heroku dashboard, then Git push to that repository.
+
+Render
+======
+
