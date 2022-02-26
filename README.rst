@@ -16,7 +16,8 @@ Run (specifying port is optional)::
 Heroku
 ======
 
-Click the button to deploy to Heroku.
+The app can be deployed to `Heroku <https://heroku.com>`_ using free resources, however you will need to establish your
+account first. Once you have an account, you can click the button here to deploy to Heroku:
 
 .. image:: https://www.herokucdn.com/deploy/button.svg
    :target: https://heroku.com/deploy?template=https://github.com/bennylope/python-deployments-hello-world
