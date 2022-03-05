@@ -1,8 +1,9 @@
 # Hello World in FastAPI for example deployments
 
 1. [Locally](#locally)
-1. [Heroku](#heroku)
-1. [Render](#render)
+2. [Heroku](#heroku)
+3. [Render](#render)
+4. [Platform.sh](#platformsh)
 
 ## Locally
 
@@ -63,8 +64,7 @@ private repository.
 In the case of the service group blueprint, the advantage is that you didn't need to enter
 any configuration for the individual web service.
 
-Platform.sh
-===========
+## Platform.sh
 
 1. Log into (or create) your Platform.sh account
 2. Create a new Project
