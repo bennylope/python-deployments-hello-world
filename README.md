@@ -62,3 +62,18 @@ private repository.
 
 In the case of the service group blueprint, the advantage is that you didn't need to enter
 any configuration for the individual web service.
+
+Platform.sh
+===========
+
+1. Log into (or create) your Platform.sh account
+2. Create a new Project
+3. Choose "Create from scratch"
+4. Give your project a name
+5. Choose the plan (should be able to do so on a free trial, but YMMV)
+6. Copy the Git remote from Platform.sh console and add locally,
+   `platform project:set-remote <project-id>` OR
+   `git remote set-url platform <project-id>@git.<region-code>.platform.sh:<project-id>.git`
+   e.g. `git remote set-url platform bat34w3o53aaa@git.us-4.platform.sh:bat34w3o53aaa.git`
+7. Push to the new remote, `git push platform main`
+
