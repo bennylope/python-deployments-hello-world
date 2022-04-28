@@ -38,6 +38,8 @@ Alternatively, fork this repository, create a Heroku app in your Heroku dashboar
 
 ## Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
 There are two ways to quickly set up the Hello World app with [Render](https://render.com), as an individual web service or as a
 services "blueprint". The "blueprint" allows you to take advantage of the `render.yaml` configuration file
 included in the app source code. Both allow you to test this out for free, however the "blueprint" method
