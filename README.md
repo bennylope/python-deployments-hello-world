@@ -5,6 +5,7 @@
 3. [Render](#render)
 4. [Platform.sh](#platformsh)
 5. [Railway](#railway)
+6. [Fly.io](#flyio)
 
 ## Locally
 
@@ -95,3 +96,6 @@ any configuration for the individual web service.
 ## Railway
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fbennylope%2Fpython-deployments-hello-world)
+
+## Fly.io
+
