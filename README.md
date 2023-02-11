@@ -97,6 +97,11 @@ any configuration for the individual web service.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fbennylope%2Fpython-deployments-hello-world)
 
+For the given configuration in this project, including the Dockerfile, you'll want to set the `PORT` to 8080.
+
+    railway variables set PORT=8080
+    railway up
+
 ## Fly.io
 
 Fly.io deployments are initiated from the command line using the `flyctl` tool (for those thinking ahead, yes, this can be done from continuous integration systems as well).
