@@ -99,3 +99,4 @@ any configuration for the individual web service.
 
 ## Fly.io
 
+Fly.io deployments are initiated from the command line using the `flyctl` tool (for those thinking ahead, yes, this can be done from continuous integration systems as well).
