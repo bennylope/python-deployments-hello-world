@@ -111,5 +111,9 @@ Fly.io deployments are initiated from the command line using the `flyctl` tool (
 1. Install the `flyctl` tool
 2. Log into (or create) your account, `flyctl auth login` or `flyctl auth signup`
 3. Run the configuration `flyctl launch`
+   1. Provide a name (you can just accept the default)
+   2. Pick the region to deploy to
+   3. Say No to a PostgreSQL database
+   4. Say No to a Redis database
 4. Deploy `flyctl deploy`
 5. View the running app `flyctl open`
