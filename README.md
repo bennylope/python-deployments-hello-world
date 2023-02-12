@@ -95,12 +95,14 @@ any configuration for the individual web service.
 
 ## Railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fbennylope%2Fpython-deployments-hello-world)
+Deploying on [Railway](https://railway.app/) is pretty straightforward, with the only "gotcha" being that you need to take a separate step on the web console to expose your app to the Internet on a Railway domain.
 
-For the given configuration in this project, including the Dockerfile, you'll want to set the `PORT` to 8080.
-
-    railway variables set PORT=8080
-    railway up
+1. Create an account on 
+2. Install the command line `railway` tool (`brew` on Mac or using `npm`)
+3. Log in locally (`railway login`)
+4. Initialize the project (`railway init`)
+5. Deploy (`railway up`)
+6. Log into the web console, click through to the project, then into the service, then settings, then under Environment set up the domain
 
 ## Fly.io
 
