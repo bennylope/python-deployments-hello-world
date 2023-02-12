@@ -107,3 +107,9 @@ Deploying on [Railway](https://railway.app/) is pretty straightforward, with the
 ## Fly.io
 
 Fly.io deployments are initiated from the command line using the `flyctl` tool (for those thinking ahead, yes, this can be done from continuous integration systems as well).
+
+1. Install the `flyctl` tool
+2. Log into (or create) your account, `flyctl auth login` or `flyctl auth signup`
+3. Run the configuration `flyctl launch`
+4. Deploy `flyctl deploy`
+5. View the running app `flyctl open`
