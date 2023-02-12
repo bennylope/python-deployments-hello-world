@@ -7,6 +7,10 @@ processes = []
 
 [build]
   builder = "paketobuildpacks/builder:base"
+  buildpacks = ["gcr.io/paketo-buildpacks/python"]
+
+[build.args]
+  BP_CPYTHON_VERSION = "3.11.*"
 
 [env]
   PORT = "8080"
