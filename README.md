@@ -10,6 +10,8 @@
 The example deployment configurations here largely eschew using Docker to provide a comparison for how the providers handle building and deploying with their own build systems.
 Note, however, that in some cases using Docker may make for a more predictable deployment experience.
 
+**🪳🐞 If something doesn't work as expected here please DO add a quick issue to the repo! 🚧🚧**
+
 ## Locally
 
 Install:
